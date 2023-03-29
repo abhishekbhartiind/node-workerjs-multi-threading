@@ -10,3 +10,19 @@
   Node.js instance
 - When process isolation is not needed, that is, no separate instances of V8, event
   loop and memory are needed, you should use worker_threads
+
+## System Codes
+
+```bash
+# MAC
+sysctl -n hw.ncpu
+# 8 (Cores)
+
+# LINUX
+nproc
+
+# WINDOWS
+echo %NUMBERS_OF_PROCESSORS%
+
+time curl --get http://localhost:3000/blocking_url
+```
