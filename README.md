@@ -26,3 +26,10 @@ echo %NUMBERS_OF_PROCESSORS%
 
 time curl --get http://localhost:3000/blocking_url
 ```
+
+Resources:
+
+```
+[To Achieve Multithreading]
+https://www.npmjs.com/package/poolifier
+```
