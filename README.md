@@ -8,3 +8,5 @@
   distribute workloads
 - worker_threads module allows running multiple application threads within a single
   Node.js instance
+- When process isolation is not needed, that is, no separate instances of V8, event
+  loop and memory are needed, you should use worker_threads
